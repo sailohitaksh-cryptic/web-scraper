@@ -7,7 +7,7 @@ import streamlit as st
 from requests_html import HTMLSession
 from tqdm import tqdm
 
-st.title("Email Scraper")
+st.title("Web Crawler")
 st.write("Enter the website URL and specify the number of email addresses to scrape.")
 
 url = st.text_input("Website URL")
